@@ -1,8 +1,8 @@
-### 1. The   problem :
+1. The   problem :
 
     Predicting the Value of a Used Vehicle.
 
-### 2. The Client
+2. The Client
 
     a. Individual Buyers : Whoever interested in buying a new car wonders about the actual value of the specific car with the one which was asked by the seller. So it is important for all to come to a better understanding of the values of the cars.
     
@@ -14,14 +14,14 @@
     
     e. .....
 
-### 3. Data :
+3. Data :
 
     a. I would like to use the data from Kaggle Competitions. The data seems not raw. However, I have also seen an approach to the cleaning process. I will try to come up with new approaches to this.
     
     b. This data includes the data points/observations from 2016. I will search for methods to scrape data for 2017.
     
     
-### 4. My   approach   to   solve  this   problem:
+4. My   approach   to   solve  this   problem:
 
     a. This seems to be a supervised problem.
     
@@ -33,7 +33,7 @@
 
     e. I am thinking of dividing the data I have with 'train_test_split' feature of scikit learn. If I end up getting the data for 2017, then I would use the data from 2016 as my training data.
 
-### 5. What are   your   deliverables?   Typically,   this   would   include   code,   along   with   a   paper.
+5. What are   your   deliverables?   Typically,   this   would   include   code,   along   with   a   paper.
 
     I will complete this project on Jupiter Notebook. First I will examine data, then wrangle the data and apply ML algorithms. Hopefully I will have learned the basic concepts of data science (Wrangling, Story Telling (EDA) and ML)
     
