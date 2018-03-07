@@ -2,7 +2,7 @@
 
     Predicting the Value of a Used Vehicle.
 
-### 2. The Client ###
+### 2. The Client #
 
     a. Individual Buyers : Whoever interested in buying a new car wonders about the actual value of the specific car with the one which was asked by the seller. So it is important for all to come to a better understanding of the values of the cars.
     
