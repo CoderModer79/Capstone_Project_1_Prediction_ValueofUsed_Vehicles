@@ -1,7 +1,38 @@
 
 Update :
 
-Condition Based Maintenance of Naval Propulsion Plants Data Set
+1. Used Car Value :
+
+Over 370000 used cars [scraped with Scrapy from Ebay-Kleinanzeigen]. The content of the data is in German.
+
+Data Features:
+•	dateCrawled : when this ad was first crawled, all field-values are taken from this date
+•	name : "name" of the car
+•	seller : private or dealer
+•	offerType
+•	price : the price on the ad to sell the car
+•	abtest
+•	vehicleType
+•	yearOfRegistration : at which year the car was first registered
+•	gearbox
+•	powerPS : power of the car in PS
+•	model
+•	kilometer : how many kilometers the car has driven
+•	monthOfRegistration : at which month the car was first registered
+•	fuelType
+•	brand
+•	notRepairedDamage : if the car has a damage which is not repaired yet
+•	dateCreated : the date for which the ad at ebay was created
+•	nrOfPictures : number of pictures in the ad (unfortunately this field contains everywhere a 0 and is thus useless (bug in crawler!) )
+•	postalCode 
+•	lastSeenOnline : when the crawler saw this ad last online
+
+Problem : Come up with an algorithm which results in a best prediction of the value of a used car.
+
+Approach : Linear Regression (Thinking of applying a combination of algorithms)
+
+
+2. Condition Based Maintenance of Naval Propulsion Plants Data Set
 
 No of Observations :11934
 
@@ -27,7 +58,7 @@ A series of measures (16 features) which indirectly represents of the state of t
 
 
 
-1. Boston Housing
+3. Boston Housing
 
 Description
 
@@ -45,7 +76,7 @@ Problems :
 
 We would like to build a model using linear regression algorithm to be able to make accurate corrections for the median value of homes using features of the Boston Housing Data Set.
 
-2. Student Intervention
+4. Student Intervention
 
 A local school district has a goal to reach a 95% graduation rate by the end of the decade by identifying students who need 
 intervention before they drop out of school. As a software engineer contacted by the school district, our task is to model 
@@ -94,7 +125,7 @@ passed : did the student pass the final exam (binary: yes or no)
 
 Problem :
 
-3. Titanic Survival:
+5. Titanic Survival:
 
 I am plannig to use the ‘Titanic practice dataset’ from the Kaggle Competition (Titanic- Machine Learning from Disaster) to predict the types of passengers who are most likely to survive the disaster. In this project proposal, I provide a quick overview of the problem, the dataset.
 
