@@ -38,9 +38,13 @@
     I will complete this project on Jupiter Notebook. First I will examine data, then wrangle the data and apply ML algorithms. Hopefully I will have learned the basic concepts of data science (Wrangling, Story Telling (EDA) and ML)
     
     a. Data Collection
+    
     b. Data Wrangling
+    
     c. EDA (Exploratory Data Analysis)
+    
     d. Modeling
+    
     e. Presentation
 
 Update :
@@ -49,7 +53,7 @@ Update :
 
 Over 370000 used cars [scraped with Scrapy from Ebay-Kleinanzeigen]. The content of the data is in German.
 
-Data Features:
+- Data Features:
 •	dateCrawled : when this ad was first crawled, all field-values are taken from this date
 •	name : "name" of the car
 •	seller : private or dealer
