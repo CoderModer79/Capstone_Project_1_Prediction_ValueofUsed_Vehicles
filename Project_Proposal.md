@@ -1,3 +1,32 @@
+1. What   is   the   problem   you   want   to   solve?
+
+    Predicting the value of a used car.
+
+2. Who   is   your   client   and   why   do   they   care   about   this   problem?   In   other   words,   what
+will   your   client   DO   or   DECIDE   based   on   your   analysis   that   they   wouldn’t   have
+otherwise?
+
+    Whoever interested in buying a new car wonders about the actual value of the specific car with the one which was asked by the seller. So it is important for all to come to a better understanding of the values of the cars.
+
+3. What   data   are   you   going   to   use   for   this?   How   will   you   acquire   this   data?
+
+    I would like to use the data from Kaggle Competitions as my first capstone project. The data is not clean. However, I have also seen an approach to the cleaning process. I will try to come up with new approaches to this.
+    
+    
+4. In   brief,   outline   your   approach   to   solving   this   problem   (knowing   that   you   may   not
+know   everything   in   advance   and   this   might   change   later).   This   might   include:
+
+    a. Is   this   a   supervised   or   unsupervised   problem? This is a supervised problem.
+    
+    b. If   supervised   is   it   a   classification   or   regression   problem? Regression, cause the dependent feature needs to be continous.
+    c. What   variable   is   it   you   are   trying   to   predict? My dependent feature would be the value of the used cars.
+    d. What   variables   will   you   use   as   predictors? My independent features would be the 'name' of the car, seller type, horse power of the car, mileage, any damage or repair, gearbox (automatic or manuel), age of the car...
+
+    e. What   will   be   your   training   data? I am thinking of dividing the data I have with 'train_test_split' feature of scikit learn.
+
+5. What are   your   deliverables?   Typically,   this   would   include   code,   along   with   a   paper.
+
+    I will complete this project on Jupiter Notebook. First I will examine data, then wrangle the data and apply ML algorithms. Hopefully I will have learned the basic concepts of data science (Wrangling, Story Telling (EDA) and ML)
 
 Update :
 
