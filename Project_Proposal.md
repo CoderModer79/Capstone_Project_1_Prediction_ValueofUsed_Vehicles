@@ -14,11 +14,17 @@
     
     e. .....
 
-3. Data :
+3. Data  Set:
 
-    a. I would like to use the data from Kaggle Competitions. The data seems not raw. However, I have also seen an approach to the cleaning process. I will try to come up with new approaches to this.
+    a. Link of Data from Kaggle :   https://www.kaggle.com/orgesleka/used-cars-database/data
     
-    b. This data includes the data points/observations from 2016. I will search for methods to scrape data for 2017.
+    b. Data Set includes 19 features and 371528 data points/observations. 
+
+    c. The data seems raw. Has too many missing values, outliers. Also includes nonsense/ wrong entries like 9999 as year of Registration.
+
+    d. This data includes the data points/observations from 2016. (I will search for methods to scrape data for 2017.)
+    
+    e. Target Feature is 'price'. Since it is the price of an individual car, it is continuous.
     
     
 4. My   approach   to   solve  this   problem: **
@@ -47,7 +53,7 @@
     
     e. Presentation
 
-Update :
+Data Set :
 
 1. Used Car Value :
 
