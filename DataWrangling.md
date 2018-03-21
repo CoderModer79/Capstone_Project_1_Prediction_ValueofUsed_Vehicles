@@ -11,15 +11,15 @@ Data Wrangling : The steps I followed are as below:
 
 ### Deleting the Duplicates : 
 
-    There are only 29 duplicate observations. So this is so small that this could be overlooked and dropped.
+There are only 29 duplicate observations. So this is so small that this could be overlooked and dropped.
 
 ### Feature/Column Check : 
 
-     When I examined the data points for each feature, I have come to the understanding that some features have only 2 unique values and the percentage of sole value out of 2 unique values is less that 0.1 percent. So this feature could be dropped. Then I decided to drop unnecessary features named ['seller','offerType','nrOfPictures','abtest', 'monthOfRegistration'].
+When I examined the data points for each feature, I have come to the understanding that some features have only 2 unique values and the percentage of sole value out of 2 unique values is less that 0.1 percent. So this feature could be dropped. Then I decided to drop unnecessary features named ['seller','offerType','nrOfPictures','abtest', 'monthOfRegistration'].
 
 ### Adding a Feature : 
 
-    By having the advantage of 'yearOfRegistration' feature, I have come up with a 'Age' column. This feature will represent the age of the car, and age is an important factor in terms of determining the value of a car.
+By having the advantage of 'yearOfRegistration' feature, I have come up with a 'Age' column. This feature will represent the age of the car, and age is an important factor in terms of determining the value of a car.
 
 ### Cleaning the Outliers : 
 
@@ -38,6 +38,6 @@ Data Wrangling : The steps I followed are as below:
  
  ### Missing Values and Nulls : 
  
-     I really had a difficult time to figure out how to deal with missing/null values. Specific to my data set, there is no option that dropping them all because I have 371000 data points. I know I will lose %30 observations. I will do further assesment following the modeling.
+I really had a difficult time to figure out how to deal with missing/null values. Specific to my data set, there is no option that dropping them all because I have 371000 data points. I know I will lose %30 observations. I will do further assesment following the modeling.
  
  ### Right after the modeling, I will come back and make assessment regarding the wrangling of the data set.
